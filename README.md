@@ -43,6 +43,15 @@ To extend RNAmut to a larger set of indexed genes or to study other cancers, use
 https://www.sanger.ac.uk/science/tools/rnamut/rnamut/#/
 
 ### **2.4 Run RNAmut from Command Line**
+In Linux BASH shell, you can use the `install.sh` to install a command line interface.
+    
+    $ cd /your/RNAmut/installdir/
+    $ chmod 755 install.sh
+    $ ./install.sh
+    $ RNAmut -h
+    
+This a small script that will create a script file called `RNAmut` in `~/bin` directory. This is 
+
 In Linux Bash shell, MacOS Terminal or Windows command prompt, run RNAmut using command:
 
     java <JAVA_OPTIONS> -jar RNAmut.jar <OPTIONS> FASTQ1_PATH,FASTQ2_PATH OUTPUT_DIR
